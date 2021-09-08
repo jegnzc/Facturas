@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Barra de navegación */
+
+.nav {
+  width: 100%;
+  background-color: #2f4550;
+  /* 1rem = 10px */
+  height: 10rem;
+  color: white;
+  /* flex */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Decoración */
+  padding: 50px;
+}
+
+.nav__items {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0px 35px 0px 0px;
+}
+
+.nav__titulo {
+  font-size: 2.4rem;
+}
+
+.nav__item a {
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__item a:hover {
+  color: skyblue;
+}
+
+.nav__item a:active {
+  color: white;
+}
+
+/* Header  */
+
+.factura {
+  padding: 75px 300px 75px 300px;
+}
+
+.factura__tabla {
+  width: 100%;
+}
+
+.factura__titulos {
+  background-color: #2f4550;
+  color: white;
+}
+
+.factura__titulos h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.factura__detalles {
+  margin: 35px 0px 0px 0px;
+}
+
+.factura__datos {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.factura__datos h4 {
+  margin: 15px;
+}
+
+/* .header__titulo {
+  color: white;
+  background-color: #2f4550;
+  padding: 15px;
+  text-align: center;
+} */
+
+.factura__buscar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+.factura__ingresar {
+  display: flex;
+  flex-direction: column;
+}
+
+.factura__buscar label {
+  font-size: 2.2rem;
+  margin: 5px 0 0 0;
+}
+
+.factura__buscar input.id {
+  padding: 3px;
+  font-size: 2.2rem;
+  width: 7.5rem;
+}
+
+.factura__buscar input.btn {
+  border-style: none;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 1px #2f4550;
+  margin: 25px 0 0 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 9px;
+}
